@@ -1,0 +1,25 @@
+@import "../scss/variables";
+@import "../scss/config";
+@import "../scss/utilities";
+
+.navbar {
+    display: flex;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(173, 95, 95, 0.39);
+    position: relative;
+    font-size: large;
+    ul {
+        display: flex;
+    }
+
+    a {
+        text-decoration: none;
+        color: $light-color;
+        padding: 0.5rem;
+        margin: 0 0.3rem;
+    }
+}
+
+@import "../scss/mobile";

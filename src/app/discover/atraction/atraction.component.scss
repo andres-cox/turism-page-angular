@@ -1,0 +1,28 @@
+@import "../../scss/variables";
+@import "../../scss/config";
+@import "../../scss/utilities";
+.card {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 2% 36px;
+    vertical-align: top;
+    position: relative;
+    white-space: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+
+    img {
+        object-fit: cover;
+        width: 460px;
+        height: 230px;
+    }
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 8px 16px;
+}
+
+@import "../../scss/mobile";

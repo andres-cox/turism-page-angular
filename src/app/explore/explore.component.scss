@@ -1,0 +1,29 @@
+@import "../scss/variables";
+@import "../scss/config";
+@import "../scss/utilities";
+
+.special {
+    background-image: url(http://www.dviajetarija.com/extraimages/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+
+    .flex-promo {
+        display: inline-block;
+        color: white;
+        padding: 1.75em;
+        max-width: 440px;
+        background-color: rgba(0, 98, 52, 0.9);
+        margin: auto;
+        -moz-box-shadow: 0 0 34px rgba(0, 0, 0, 0.7);
+        -webkit-box-shadow: 0 0 34px rgba(0, 0, 0, 0.7);
+        box-shadow: 0 0 34px rgba(0, 0, 0, 0.7);
+    }
+}
+
+@import "../scss/mobile";

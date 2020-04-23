@@ -1,0 +1,20 @@
+@import "../scss/variables";
+@import "../scss/config";
+@import "../scss/utilities";
+
+.head {
+    padding: 0.7rem 2rem;
+    border-bottom: solid 1px $light-color;
+    opacity: 0.9;
+    background-color: $secondary-color;
+    h5 {
+        text-align: center;
+        letter-spacing: 3px;
+        color: $header-color;
+        font-family: Courier, "Courier New", monospace;
+        font-size: 0.9rem;
+        margin-bottom: 0rem;
+    }
+}
+
+@import "../scss/mobile";

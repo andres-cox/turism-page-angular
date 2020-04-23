@@ -1,0 +1,14 @@
+<div id="food" class="food my-3">
+
+    <div class="title">
+        <h1>Descubre</h1>
+        <p>Cosas que te podrian gustar</p>
+    </div>
+
+    <div class="food-inner">
+        <div *ngFor="let atraction of atractions">
+            <app-atraction [atraction]="atraction"></app-atraction>
+        </div>
+    </div>
+
+</div>

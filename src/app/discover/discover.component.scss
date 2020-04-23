@@ -1,0 +1,43 @@
+@import "../scss/variables";
+@import "../scss/config";
+@import "../scss/utilities";
+
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem 8rem;
+
+    .title {
+        margin: auto;
+        color: $success-color;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+
+        h1 {
+            color: #01260e;
+        }
+        p {
+            color: #4e4e4e;
+        }
+    }
+
+    &-inner {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 2rem 2rem;
+        align-items: baseline;
+        justify-content: space-around;
+        text-align: center;
+       
+    }
+
+  
+}
+
+@import "../scss/mobile";

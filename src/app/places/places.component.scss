@@ -1,0 +1,54 @@
+@import "../scss/variables";
+@import "../scss/config";
+@import "../scss/utilities";
+
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    background-color: $tertiary-color;
+    opacity: 0.95;
+    color: white;
+
+    &-inner {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+
+        .image-btn {
+            position: relative;
+            color: $light-color;
+            display: inline-block;
+            max-width: 240px;
+
+            a:hover {
+                cursor: pointer;
+                color: $light-color;
+            }
+            img {
+                opacity: 0.7;
+                object-fit: cover;
+                height: 240px;
+            }
+            &:hover {
+                opacity: 0.8;
+                // border-color: $secondary-color;
+                // @include easeOut;
+            }
+
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+
+@import "../scss/mobile";

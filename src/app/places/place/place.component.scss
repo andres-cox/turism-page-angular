@@ -1,0 +1,35 @@
+@import "../../scss/variables";
+@import "../../scss/config";
+@import "../../scss/utilities";
+
+
+.image-btn {
+    position: relative;
+    color: $light-color;
+    display: inline-block;
+    max-width: 240px;
+
+    a:hover {
+        cursor: pointer;
+        color: $light-color;
+    }
+    img {
+        opacity: 0.7;
+        object-fit: cover;
+        height: 240px;
+    }
+    &:hover {
+        opacity: 0.8;
+        // border-color: $secondary-color;
+        // @include easeOut;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@import "../../scss/mobile";
