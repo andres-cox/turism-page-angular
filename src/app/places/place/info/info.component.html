@@ -1,9 +1,9 @@
-<!-- <div class="modal fade bd-example-modal-lg" id="exampleModal{{$loop->index+1}}" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">{{$place->title}}</h4>
+                <h4 class="modal-title" id="exampleModalLabel"></h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -12,8 +12,8 @@
                 <div class="container-fluid">
 
                     <div class="row">
-                        <div class="col-md-5"> <img src="{{$place->img_url}}" alt="Snow" style="width:100%;"></div>
-                        <div class="col-md-7 ml-auto">{{$place->text}}</div>
+                        <div class="col-md-5"> <img src="" alt="Snow" style="width:100%;"></div>
+                        <div class="col-md-7 ml-auto">{{ this.data.title }}</div>
                     </div>
                 </div>
             </div>
@@ -23,3 +23,12 @@
         </div>
     </div>
 </div> -->
+<div class="container">
+    <h3>{{ this.data.title }}</h3>
+    <hr><br>
+    <div class="row">
+        <div class="image-left"><img src="{{ this.data.picture }}" alt="landscape"></div>
+        <mat-dialog-content class="text" id="text">
+        </mat-dialog-content>
+    </div>
+</div>

@@ -18,12 +18,19 @@ export class PlaceComponent implements OnInit {
 
   openInfo() {
     const dialogConfig = new MatDialogConfig();
-    dialogConfig.disableClose = true;
-    dialogConfig.autoFocus = true;
-    dialogConfig.width = "600px";
-    const dialogRef = this.dialog.open(InfoComponent, dialogConfig);
-    dialogRef.afterClosed().subscribe(() => {
+    //dialogConfig.disableClose = true;
+    //dialogConfig.autoFocus = true;
+    dialogConfig.width = "60%";
+    dialogConfig.scrollStrategy;
 
-    });
+    dialogConfig.data = {
+      id: 1,
+      title: this.place.title,
+      picture: this.place.picture,
+      description: this.place.description
+
+    };
+    const dialogRef = this.dialog.open(InfoComponent, dialogConfig);
+
   }
 }
