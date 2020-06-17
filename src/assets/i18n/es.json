@@ -1,0 +1,50 @@
+{
+    "header": {
+        "title": "AGENDA TARIJA"
+    },
+    "navbar": {
+        "title": "TARIJA",
+        "places": "LUGARES",
+        "discover": "DESCUBRIR",
+        "sites": "SITIOS"
+    },
+    "landscape": {
+        "title": "Bienvenido a Tarija",
+        "message": "Ciudad del Vino, Baile y gente Hermosa"
+    },
+    "places": {
+        "title": "LUGARES A VISITAR"
+    },
+    "discover": {
+        "title": "Descubre",
+        "message": "Vive experiencias imperdibles",
+        "cards": [
+            {
+                "vendimia": {
+                    "title": "Vendimia",
+                    "text": "Un festival que reúne el arte, música, danza, uvas y vinos."
+                }
+            },
+            {
+                "vino": {
+                    "title": "Vino",
+                    "text": "Se encuentran viñas, bodegas industriales y artesanales además de vinotecas."
+                }
+            },
+            {
+                "cangrejitos": {
+                    "title": "Cangrejitos",
+                    "text": "Plato servido con mote y limón, se sirve en la localidad de tomatitas."
+                }
+            }
+        ]
+    },
+    "explore": {
+        "title": "Explora la ruta de los Vinos",
+        "message": "Se encuentran viñas, bodegas industriales y artesanales que producen vinos de todos los colores además de la famosa bebida nacional: the singani.",
+        "button": "Ver más"
+    },
+    "map": {
+        "title": "Busca Lugares"
+    }
+}

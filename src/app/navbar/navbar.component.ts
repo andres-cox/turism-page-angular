@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslationService } from '../services/translation.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private translationService: TranslationService) { }
 
   ngOnInit() {
   }
 
+  changeLanguage(lang) {
+    this.translationService.changeLanguage(lang);
+    this.translationService.statusUpdated.emit(lang);
+  }
 }

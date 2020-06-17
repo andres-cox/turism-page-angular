@@ -1,0 +1,50 @@
+{
+    "header": {
+        "title": "TARIJA'S TRAVEL RESOURCE"
+    },
+    "navbar": {
+        "title": "TARIJA",
+        "places": "PLACES TO VISIT",
+        "discover": "WHAT TO DISCOVER",
+        "sites": "LOOKING SITES"
+    },
+    "landscape": {
+        "title": "Welcome to Tarija",
+        "message": "City of wine, dance and beautiful people"
+    },
+    "places": {
+        "title": "PLACES TO VISIT"
+    },
+    "discover": {
+        "title": "What to Discover",
+        "message": "Experiences you might want to discover and enjoy",
+        "cards": [
+            {
+                "vendimia": {
+                    "title": "Vendimia",
+                    "text": "A festival that brings together art, music, dance, grapes and wines."
+                }
+            },
+            {
+                "vino": {
+                    "title": "Vino",
+                    "text": "There are vineyards, industrial, artisanal wineries and wine bars."
+                }
+            },
+            {
+                "cangrejitos": {
+                    "title": "Cangrejitos",
+                    "text": "A special dish in Tomatitas"
+                }
+            }
+        ]
+    },
+    "explore": {
+        "title": "Explore The Wine Route",
+        "message": "There are vineyards, industrial and artisan wineries and wine bars that produce in addition to wines of all colors the famous national drink: the singani.",
+        "button": "See more"
+    },
+    "map": {
+        "title": "Look for Places"
+    }
+}

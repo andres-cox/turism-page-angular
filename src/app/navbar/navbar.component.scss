@@ -8,14 +8,17 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgba(173, 95, 95, 0.39);
-    position: relative;
+    position: absolute;
+    width: 100%;
     font-size: large;
+
     ul {
         display: flex;
     }
 
     a {
         text-decoration: none;
+        cursor: pointer;
         color: $light-color;
         padding: 0.5rem;
         margin: 0 0.3rem;

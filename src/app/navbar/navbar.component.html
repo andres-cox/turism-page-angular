@@ -1,19 +1,20 @@
 <nav class="navbar">
     <div class="nav-brand">
         <h1 class="font-fantasy">
-            <a href="#home">TARIJA</a>
+            <a href="#home">{{ 'navbar.title' | translate }}</a>
         </h1>
         <div></div>
         <ul class="small font-roman">
-            <li><a href="#places">LUGARES</a></li>
-            <li><a href="#food">DESCUBRIR</a></li>
-            <li><a href="#map">SITIOS</a></li>
+            <li><a href="#places">{{ 'navbar.places' | translate }}</a></li>
+            <li><a href="#food">{{ 'navbar.discover' | translate }}</a></li>
+            <li><a href="#map">{{ 'navbar.sites' | translate }}</a></li>
         </ul>
     </div>
     <div>
         <ul class="font-roman">
-            <li><a href="locale/es">ESP</a></li>
-            <li><a href="locale/en">ENG</a></li>
+            <li><a (click)="changeLanguage('es')">ESP</a></li>
+            <li><a (click)="changeLanguage('en')">ENG</a></li>
+
         </ul>
     </div>
 </nav>
