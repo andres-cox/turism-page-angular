@@ -8,6 +8,7 @@ import { Atraction } from 'src/app/shared/atraction.model';
 })
 export class AtractionComponent implements OnInit {
   @Input() atraction: Atraction;
+
   constructor() { }
 
   ngOnInit() {

@@ -17,4 +17,10 @@ export class TranslationService {
     this.activeLang = lang;
     this.translate.use(lang);
   }
+
+  getDiscoverCards() {
+
+    return this.translate.get('discover.cards')
+
+  }
 }

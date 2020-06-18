@@ -6,9 +6,19 @@
     </div>
 
     <div class="food-inner">
-        <div *ngFor="let atraction of atractions">
+        <div *ngFor="let atraction of atractions; let i = index">
             <app-atraction [atraction]="atraction"></app-atraction>
         </div>
+    </div>
+    <div>
+        <ul>
+            <li *ngFor="let item of atrac | async">
+                Name: {{ item.vendimia.title }},
+                Population: {{ item.vendimia.text }}
+            </li>
+            <!-- {{ atrac[0].vendimia.text }} -->
+            <!-- {{ atrac | async }} -->
+        </ul>
     </div>
 
 </div>
