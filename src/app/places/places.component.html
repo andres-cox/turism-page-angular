@@ -3,7 +3,7 @@
         {{ 'places.title' | translate }}
     </h1>
     <div class="places-inner">
-        <div *ngFor="let place of places">
+        <div *ngFor="let place of places | async">
             <app-place [place]="place"></app-place>
         </div>
     </div>

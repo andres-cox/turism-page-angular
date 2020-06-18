@@ -10,7 +10,7 @@ import { InfoComponent } from './info/info.component';
 })
 export class PlaceComponent implements OnInit {
 
-  @Input() place: Place;
+  @Input() place;
   constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
@@ -26,7 +26,7 @@ export class PlaceComponent implements OnInit {
     dialogConfig.data = {
       id: 1,
       title: this.place.title,
-      picture: this.place.picture,
+      picture: this.place.img,
       description: this.place.description
 
     };

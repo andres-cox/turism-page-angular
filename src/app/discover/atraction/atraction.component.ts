@@ -7,7 +7,7 @@ import { Atraction } from 'src/app/shared/atraction.model';
   styleUrls: ['./atraction.component.scss']
 })
 export class AtractionComponent implements OnInit {
-  @Input() atraction: Atraction;
+  @Input() atraction;
 
   constructor() { }
 

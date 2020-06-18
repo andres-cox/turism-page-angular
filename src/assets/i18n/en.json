@@ -13,29 +13,48 @@
         "message": "City of wine, dance and beautiful people"
     },
     "places": {
-        "title": "PLACES TO VISIT"
+        "title": "PLACES TO VISIT",
+        "sites": [
+            {
+                "title": "SAN ROQUE",
+                "img": "../../../assets/places/san-roque.jpg",
+                "description": "In the upper part of the city of Tarija, a remarkable architecture stands out that shelters the Parish of San Roque, a sanctuary where the most humble people attended, which is why, more than 400 years ago, the Franciscan religious established a small hermitage or chapel called San Roque, the Parish of San Roque which is the epicenter of the largest festival in Tarija and is an emblem of identity of all Tarijeños. <br/> <br/> San Roque was born in Montepellier; France on August 16, 1295 in a home of heroes of the French nobility, were his parents, Don Juan de la Cruz and Doña Liberia, his nobility descended from the Christian Kings of France, his father was a wealthy governor of the city of who inherited his son all his fortune. At the death of his parents, he distributed his wealth to the poor, took the habit and the staff of the pilgrim and traveled to Italy, in whose territory the plague ravaged its inhabitants. <br/> < br /> San Roque was dedicated to the sick returned going health. He contracted the plague in Plasencia, a town on the banks of the 'Po' river, hiding in a hut. Gothar, a member of the nobility warning that his dog was lost daily carrying a ration of bread, followed in the footsteps of the dog and was able to verify that he not only carried food, but licked the Frenchman's sores. He moved the young aristocrat and made San Roque heal; once the sick man was recovered, he was able to return to his native land; where slandered as a spy he died in a prison cell at the age of 32 on August 27, 1327. <br/> <br/> In 1900, the Franciscan father Buenaventura Lolli, ordered the demolition of the small bell towers and designed the elegant current facade, which was completed by Father Vicente Picinini. Construction began with the dome followed by the external walls to continue with the lifting of the central columns to support the following floors and the roof of the temple itself. <br/> <br/> Before the growing number of faithful and for the spiritual benefit of the neighbors; The Mother Church of San Roque was segregated, erecting it as a Parish; installed by the Reverend Archbishop of La Plata, Fray Sebastián Francisco Pifferi of the Order of Friars Minor and Apostolic Missionary of the Franciscan Convent of Tarija. On October 27, 1907, Fr. Columbano Maria Puccetti of the Order of Friars Minor and Franciscan Apostolic Missionary was given interim, being the first pastor of the parish and who made improvements inside the temple. During the first decade of the 20th century, modifications were made to the facade of the temple with the current design. <br/> <br/> Subsequently, on July 16, 1956, the Parish was handed over for its custody and administration to the priests of the Carmelite Order who arrived in Tarija, who received an experience of faith and identity of the people expressed in San Roque, who as a Christian left a mark on the lives of the population that suffered from diseases."
+            },
+            {
+                "title": "CASTILLO AZUL",
+                "img": "../../../assets/places/castillo-azul.jpg",
+                "description": "In Tarija everyone knows where the Blue Castle is, it is impossible not to recognize it or that this emblematic palace goes unnoticed. Its peculiar architecture and style burst onto the panorama of this city in southern Bolivia by abruptly contrasting with the brick buildings erected in its vicinity . <br/> <br/> Considered one of the precious stones of Tarija's heritage treasure, the facade of this nineteenth-century house looks like a brilliant sapphire in the blue color of the Bolivian firmament. <br/> <br/> Its history born with the fortune of Moisés Navajas, one of the wealthiest merchants in the region, who decided to build the castle for family use some 150 years ago, back then the residence was used as a country house as it was surrounded by a large park The exquisite architectural work was designed by the Camponovo brothers who chose the European trend of art noveau for its construction."
+            },
+            {
+                "title": "PARQUE DE LAS FLORES",
+                "img": "../../../assets/places/parque-de-flores.jpg",
+                "description": "The 'Parque de las Flores' has been an inspiration for singers over the years, a recreation center for the beauty of its surroundings and the variety of flowers, roses and trees. <br/> <br/> The 'Parque de las Flores' was one of the first green recreational areas created in the capital, it was located in what was previously a waste dump. The work was carried out by the municipal administration of Oscar Zamora Medinacelli and was well received by the population, since it was a meeting point for families, groups of friends and lovers who gathered at the weekend to enjoy the gardens, the fountain with goldfish and paths decorated with flowers."
+            },
+            {
+                "title": "CASA DORADA",
+                "img": "../../../assets/places/casa-dorada.jpg",
+                "description": "Considered a National Monument, the colossal 'Casa Dorada' with 115 years since its construction, constitutes an exquisite architectural sample, right in the center of the 'Andalusian city'. <br/> <br/> Moisés Navajas Ichazo and Esperanza Morales Serrano, considered in his time the 'Millionaires of Tarija', were the forerunners of the monumental work, in 1903. <br/> <br/> At the death of these citizens, who had no descendants, the work, more The riches it contained were passed on to regional entities, instances from which the treasure was preserved. The historical explanation shows that on the back of a mule and along bridleways, the spouses brought various products from Europe to supply the pharmacy (pharmacy ) that they had in their house, in addition to the furniture, carpets and curtains, that some of them are still preserved, while others had to be replaced by replicas, given the damage they suffered over time. <br/> <br/> The couple dedicated to eat He imported agricultural material, glassware, fabrics, hardware, food and confectionery that they commercialized in Argentine cities such as Salta, Tucumán and Córdoba. they also sold their items. <br/> <br/> Although the ground floor sector was intended to store the commerce that imported from Europe, in the private spaces of the house, such as the reception room, dining room and a private oratory (where you can appreciate on the ceiling, pictorial murals, which portray the 14 stations of the Via Crucis de Jesús), an element that enhances the couple's devotion to the Catholic religion. You can also appreciate furniture and objects of unmatched quality such as: Venetian glass mirrors , fine-crystal chandeliers, damask and gobelin curtains, a red cedar piano, bronze sculptures, an opal centerpiece, and fine European-style furnishings, wallpaper walls, Persian rugs, which are all under plastic, in order to avoid deterioration, due to the number of tourists who visit the place daily. <br/> <br/> It is observed that the couple spared no resources to send to form various samples of plastic art from that time, which still remain unchanged. "
+            }
+        ]
     },
     "discover": {
         "title": "What to Discover",
         "message": "Experiences you might want to discover and enjoy",
         "cards": [
             {
-                "vendimia": {
-                    "title": "Vendimia",
-                    "text": "A festival that brings together art, music, dance, grapes and wines."
-                }
+                "title": "Vendimia",
+                "text": "A festival that brings together art, music, dance, grapes and wines.",
+                "img": "../../../assets/atractions-imgs/vendimia.jpeg"
             },
             {
-                "vino": {
-                    "title": "Vino",
-                    "text": "There are vineyards, industrial, artisanal wineries and wine bars."
-                }
+                "title": "Vino",
+                "text": "There are vineyards, industrial, artisanal wineries and wine bars.",
+                "img": "../../../assets/atractions-imgs/vino.jpg"
             },
             {
-                "cangrejitos": {
-                    "title": "Cangrejitos",
-                    "text": "A special dish in Tomatitas"
-                }
+                "title": "Cangrejitos",
+                "text": "A special dish in Tomatitas",
+                "img": "../../../assets/atractions-imgs/cangrejitos.jpg"
             }
         ]
     },
