@@ -4,41 +4,49 @@
 
 .row{
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     
 }
 .image-left {
     width: 40%;
+    img {
+        object-fit: cover;
+        max-height: 70vh;
+    }
 }
 .text{
     width: 60%;
     margin: 0 5px;
 }
+.modal{
+    width: 100%;
+    max-height: 80vh;
+    
+}
 
-@include mediaXs {
+@media screen and (max-width: 960px) {
     .container{
         padding: 0;
         margin-top: 0.5rem;
-        max-height: 90vh;
     }
     .mat-dialog-content {
         padding: 0;
     }
+    
     .row {
         flex-direction: column;
     }
     .image-left {
         width: 100%;
+        img{
+            object-fit: cover;
+            height: 50vh;
+        }
     }
 
     .text{
         width: 100%;
         margin: 0.5rem 0;
-    }
-
-    element.style {
-        max-height: 80vh;
-
     }
 }
 

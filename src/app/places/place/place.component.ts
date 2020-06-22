@@ -20,7 +20,8 @@ export class PlaceComponent implements OnInit {
     const dialogConfig = new MatDialogConfig();
     //dialogConfig.disableClose = true;
     //dialogConfig.autoFocus = true;
-    dialogConfig.width = "60%";
+    // dialogConfig.width = "60%";
+    dialogConfig.panelClass = 'modal';
     dialogConfig.scrollStrategy;
 
     dialogConfig.data = {

@@ -39,7 +39,7 @@
     },
     "discover": {
         "title": "Descubre",
-        "message": "Vive experiencias imperdibles",
+        "message": "Vive experiencias inolvidables",
         "cards": [
             {
                 "title": "Vendimia",
@@ -48,7 +48,7 @@
             },
             {
                 "title": "Vino",
-                "text": "Se encuentran viñas, bodegas industriales y artesanales además de vinotecas.",
+                "text": "Se encuentran viñedos, bodegas industriales y artesanales además de vinotecas.",
                 "img": "../../../assets/atractions-imgs/vino.jpg"
             },
             {
