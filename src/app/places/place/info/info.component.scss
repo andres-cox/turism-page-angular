@@ -1,3 +1,7 @@
+@import "../../../scss/variables";
+@import "../../../scss/config";
+@import "../../../scss/utilities";
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -10,3 +14,32 @@
     width: 60%;
     margin: 0 5px;
 }
+
+@include mediaXs {
+    .container{
+        padding: 0;
+        margin-top: 0.5rem;
+        max-height: 90vh;
+    }
+    .mat-dialog-content {
+        padding: 0;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .image-left {
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    element.style {
+        max-height: 80vh;
+
+    }
+}
+
+@import "../../../scss/mobile";
